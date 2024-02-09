@@ -3,7 +3,7 @@ package com.example.fitnesstrackigapp.data
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-
+//this is the data class which holds the user credentials, like age , name ,gender
 @Entity()
 data class UserCreds(
     @PrimaryKey(autoGenerate = true)

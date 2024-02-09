@@ -1,5 +1,5 @@
 package com.plcoding.composegooglesignincleanarchitecture.presentation.sign_in
-
+//these files defines the sign in process for the app
 import android.content.Context
 import android.content.Intent
 import android.content.IntentSender

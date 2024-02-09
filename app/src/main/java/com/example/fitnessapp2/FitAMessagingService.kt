@@ -10,7 +10,7 @@ import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import java.util.Calendar
-
+//this file defines the messaging service for the app, this service is used to handle the notifications and show them to the user
 class FitAMessagingService  : FirebaseMessagingService() {
 
     override fun onNewToken(token: String) {

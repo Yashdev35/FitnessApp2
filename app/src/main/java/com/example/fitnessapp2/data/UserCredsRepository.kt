@@ -1,7 +1,7 @@
 package com.example.fitnesstrackigapp.data
 
 import kotlinx.coroutines.flow.Flow
-
+//repository for usercreds, it bridges the gap between the viewmodel and the dao
 class UserCredsRepository(
     private val userCredsDao: UserCredsDao
 ) {

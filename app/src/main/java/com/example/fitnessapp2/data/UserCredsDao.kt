@@ -7,7 +7,7 @@ import androidx.room.Query
 import androidx.room.Update
 import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
-
+//dao for operations on usercreds
 @Dao
 abstract class UserCredsDao {
     @Insert(onConflict = androidx.room.OnConflictStrategy.REPLACE)

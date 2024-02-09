@@ -15,6 +15,9 @@ import com.example.fitnessapp2.ui.theme.FitnessApp2Theme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        scheduleDailyAlarm(applicationContext, 20,7,"its morbing time")
+        scheduleDailyAlarm(applicationContext, 16,30,"its morbin time")
+        scheduleDailyAlarm(applicationContext, 6,30,"its morbing time")
         super.onCreate(savedInstanceState)
         setContent {
             val navController = rememberNavController()

@@ -5,7 +5,7 @@ import androidx.compose.ui.graphics.BlendMode.Companion.Color
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
-
+//gradient color
 class GradientColor {
     val priamaryColor = Brush.Companion.horizontalGradient(
         colors = listOf(Color(0xFF92A3FD), Color(0xFF9DCEFF)))

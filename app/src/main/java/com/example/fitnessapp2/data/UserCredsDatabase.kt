@@ -4,7 +4,7 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-
+//defining the database for usercreds
 @Database(
     entities = [UserCreds::class],
     version = 1,

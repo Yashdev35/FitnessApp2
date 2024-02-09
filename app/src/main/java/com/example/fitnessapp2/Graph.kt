@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import com.example.fitnesstrackigapp.data.UserCredsDatabase
 import com.example.fitnesstrackigapp.data.UserCredsRepository
-
+//this graph object is used to provide the database and repository to the app
 object Graph {
     lateinit var database : UserCredsDatabase
 

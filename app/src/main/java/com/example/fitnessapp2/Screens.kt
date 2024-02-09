@@ -1,5 +1,5 @@
 package com.example.fitnessapp2
-
+//the screens objects are made to not have any typo and destination errors
 sealed class Screen(val route: String) {
     object OnBoarding : Screen("onboarding_screen")
     object GetStarted : Screen("get_started_screen")

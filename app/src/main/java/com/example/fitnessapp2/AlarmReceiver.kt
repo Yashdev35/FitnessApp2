@@ -11,7 +11,8 @@ import androidx.annotation.RequiresApi
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.core.app.NotificationCompat
-
+//this class is used to create a notification for the user when the alarm is triggered , this notification are timed
+//they work like alarms
 class AlarmReceiver : BroadcastReceiver() {
 
     override fun onReceive(context: Context?, intent: Intent?) {

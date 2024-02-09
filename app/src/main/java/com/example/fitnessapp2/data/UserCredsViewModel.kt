@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-
+//viewmodel for usercreds, it bridges between the data and the ui and handles the logic , like update and delete etc.
 class UserCredsViewModel(
     private val repository: UserCredsRepository = Graph.userCredsRepository
 ): ViewModel() {
@@ -55,7 +55,7 @@ class UserCredsViewModel(
             getUserCredsHis = repository.getUserCredsHistory()
         }
     }
-
+      //the usercreds dao functions are called here
     fun addUserCreds(userCreds: UserCreds) {
         viewModelScope.launch(Dispatchers.IO) {
             repository.addUserCreds(userCreds)

@@ -61,7 +61,7 @@ import com.example.fitnesstrackigapp.data.UserCredsState
 import com.example.fitnesstrackigapp.data.UserCredsViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-
+//this is the sign up screens which triggers after pressing get started screen
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SignUpScreen(
@@ -80,6 +80,7 @@ fun SignUpScreen(
         contentAlignment = Alignment.TopCenter
 
     ){
+        //usercreds list gets the list from the data base
         val userCredsList = viewModel.getUserCredsHis.collectAsState(initial = listOf())
          Column(
              modifier = Modifier

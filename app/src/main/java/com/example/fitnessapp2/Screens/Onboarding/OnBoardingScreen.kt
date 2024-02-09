@@ -50,7 +50,7 @@ import androidx.navigation.NavController
 import com.example.fitnessapp2.R
 import com.example.fitnessapp2.Screen
 import kotlinx.coroutines.launch
-
+//this page will load the on boarding pages
 @Composable
 fun OnBoardingPage(
     mainHeading: String,

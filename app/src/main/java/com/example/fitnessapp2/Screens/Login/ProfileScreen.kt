@@ -63,7 +63,7 @@ import com.example.fitnesstrackigapp.data.UserCredsViewModel
 import kotlinx.coroutines.launch
 
 import java.time.LocalDate
-
+//this was supposed to be for profile setup screen which would have been triggered after new user has created
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ProfileSet(

@@ -22,7 +22,7 @@ import com.example.fitnesstrackigapp.Screens.WorkoutScreens.WeightTrainingScreen
 import com.example.fitnesstrackigapp.Screens.WorkoutScreens.YogaWorkoutScreen
 import com.example.fitnesstrackigapp.data.UserCreds
 import com.example.fitnesstrackigapp.data.UserCredsViewModel
-
+//this file holds the navigation for the app
 @Composable
 fun FitNav(navController: NavHostController,viewModel: UserCredsViewModel = viewModel()){
     val context = LocalContext.current
