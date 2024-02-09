@@ -1,12 +1,18 @@
 
 # Fitness Tracking App
 
-Welcome to the Fitness Tracking App, a project developed for the club induction at IIT Indore. This app, created using Kotlin and Jetpack Compose, serves as a fitness companion to encourage a healthier lifestyle.
+Welcome to the Fitness Tracking App, a project developed for the club induction at IIT Indore made by Yash Kumbhkarn. This app, created using Kotlin and Jetpack Compose, serves as a fitness companion to encourage a healthier lifestyle.
 Please read the known issue part
 
 ## Overview
 
 This app provides a simplified platform for club members to track and improve their fitness journey. It integrates user authentication, local data storage, and a user-friendly dashboard for monitoring progress.
+
+## Demo
+[![Watch the video](https://github.com/Yashdev35/FitnessApp2/blob/main/demo%20Fitness%20app.mp4)
+
+preview is large so plz download the raw file
+
 
 ## Features
 
