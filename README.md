@@ -42,6 +42,7 @@ This app provides a simplified platform for club members to track and improve th
 3. **Workout Plans:**
    - Explore a variety of workout plans tailored for different fitness levels.
    - Access tutorial links for each exercise to ensure proper form and technique.
+   - sends user a custom notification at specific time of data like "Its morbin time" at 8:07 PM (i was going to add something meaningful if i has completed the app)
 
 ## Known Issues
 
