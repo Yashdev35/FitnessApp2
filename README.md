@@ -11,6 +11,8 @@ This app provides a simplified platform for club members to track and improve th
 ## Demo
 [![Watch the video](https://github.com/Yashdev35/FitnessApp2/blob/main/demo%20Fitness%20app.mp4)
 
+preview is large so plz download the raw file
+
 
 ## Features
 
