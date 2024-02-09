@@ -1,6 +1,3 @@
-Certainly! Here's a revised README tailored for a college club induction project:
-
----
 
 # Fitness Tracking App
 
