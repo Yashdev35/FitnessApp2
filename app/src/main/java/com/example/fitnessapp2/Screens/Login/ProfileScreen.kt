@@ -406,7 +406,7 @@ fun ProfileSet(
                                             caloriesBurnt = viewModel.caloriesBurntState,
                                         )
                                     )
-                                    navController.navigate(Screen.Welcome.route + "/$id")
+                                    navController.navigate(Screen.OnBoarding.route + "/$id")
                                 }
                             } else {
                                 Toast

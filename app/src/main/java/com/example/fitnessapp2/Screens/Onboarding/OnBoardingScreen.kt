@@ -88,7 +88,8 @@ fun OnBoardingPage(
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun OnboardingPages(
-    navController: NavController
+    navController: NavController,
+    id: Long
 ){
     val onboardingPages = listOf(
         OnboardingPage(
@@ -158,7 +159,7 @@ val pagerState = rememberPagerState(0,0f) { 4 }
        }else{
            /*TODO*/
            //open the welcome screen
-              navController.navigate(Screen.ProfileSetup.route)
+              navController.navigate(Screen.Welcome.route + "/$id")
        }
     }
 },

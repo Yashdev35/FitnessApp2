@@ -30,8 +30,17 @@ fun FitNav(navController: NavHostController,viewModel: UserCredsViewModel = view
         composable(Screen.GetStarted.route){
             StartedPage(navController)
         }
-        composable(Screen.OnBoarding.route){
-            OnboardingPages(navController)
+        composable(Screen.OnBoarding.route +"/{id}",
+            arguments = listOf(
+                navArgument("id") {
+                    type = NavType.LongType
+                    defaultValue = 0L
+                    nullable = false
+                }
+            )
+            ){bEntry->
+            val id = if(bEntry.arguments != null)bEntry.arguments!!.getLong("id") else 0L
+            OnboardingPages(navController,id)
         }
         composable(Screen.SignUp.route){
             SignUpScreen(navController,viewModel = viewModel)
