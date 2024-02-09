@@ -2,7 +2,7 @@ Certainly! Here's a revised README tailored for a college club induction project
 
 ---
 
-# Fitness Club App
+# Fitness Tracking App
 
 Welcome to the Fitness Club App, a project developed for the club induction at IIT Indore. This app, created using Kotlin and Jetpack Compose, serves as a fitness companion to encourage a healthier lifestyle.
 
